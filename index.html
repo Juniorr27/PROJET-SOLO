@@ -13,17 +13,25 @@
 </head>
 <body>
     <h1>SOLO PONG</h1>
-    <P>Joue le plus longtemps possible!</P>
-    <canvas id="plateau" role="img" aria-label="Aire de jeu Pong">
+    <P class="text">Joue le plus longtemps possible!</P>
+    <div class="plateau">
+        <canvas  id="pong" role="img" aria-label="Aire de jeu Pong">
 
+        </canvas >
+    </div>
 
-    </canvas>
+    <div class="newpartbtn" aria-live="polite">
+        <button id="btnStart" role="button"> Nouvelle partie</button>
+        <br>
+        <p id="score">Score : 0</p>
+    </div>
 
-    <button role="button"> Nouvelle partie</button>
-    <button>→</button>
-    <button>←</button>
-    <div aria-live="polite">
+    <div class="btnDirection">
+        <button id="droite">→</button>
+        <button id="gauche">←</button>
 
     </div>
+   
+   
 </body>
 </html>

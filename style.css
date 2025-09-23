@@ -2,7 +2,59 @@
 *{
     font-family: Arial, Helvetica, sans-serif;
 }
-canvas{
+body{
+    background-color: black;
+}
+h1{
+    color: white;
+    text-align: center;
+}
+.text{
+    color: white;
+    text-align: center;
+}
+.plateau{
+    background:green;
     width: 400px;
-    height: 700px;
+    height: 600px;
+    border:2px solid rgb(48, 155, 204);
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin: auto;
+}
+.newpartbtn{
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+}
+.newpartbtn p{
+    color: white;
+
+}
+.newpartbtn button{
+    background-color: #0e557e;
+    border-radius: 8px;
+    color: aliceblue;
+    height: 40px;
+    font-size: 20px;
+}
+
+.btnDirection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: px;
+}
+.btnDirection button{
+   width: 30px;
+   margin: 10px;
+   height: 30px;
+   border-radius: 15px;
+} 
+canvas{
+   
 }
