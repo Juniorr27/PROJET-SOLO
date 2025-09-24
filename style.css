@@ -14,7 +14,7 @@ h1{
     text-align: center;
 }
 .plateau{
-    background:green;
+    background:rgb(148, 243, 148);
     width: 400px;
     height: 600px;
     border:2px solid rgb(48, 155, 204);
